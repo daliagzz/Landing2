@@ -98,6 +98,9 @@ body {
     text-align: left;
     margin-top: 30px;
 }
+h4 {
+    font-size: 1.5rem;
+}
 
 .contenedor .contenido {
     font-size: 10px;
@@ -138,6 +141,8 @@ body {
     opacity: 80%;
 }
 .contenedor .sidebar .image img {
+    width: 466px;
+    height: auto;
     width: 32vw;
     min-width: 350px;
     border-radius: 50%;
@@ -333,7 +338,7 @@ button:hover {
     height: 300px; /* Altura del contenedor */
 }
 .card p {
-    font-size: 10px;
+    font-size: 12px;
 }
 .card h3 {
     font-size: 20px;
@@ -346,7 +351,7 @@ h3 {
     clip-path: circle();
 }
 .testimonial .circle img {
-    width: 100px; /* Establecer un ancho fijo para todas las imágenes */
+    width: 86px; /* Establecer un ancho fijo para todas las imágenes */
     height: 100px; /* Establecer una altura fija para todas las imágenes */
     object-fit: cover; /* Ajustar la imagen dentro del contenedor sin distorsionar su aspecto */
 
@@ -361,8 +366,10 @@ h3 {
 @media screen and (max-width: 1000px) {
     .floating-btn {
         left: 50%;
-        
     }
+    .contenedor .sidebar .image img {
+        width: 32vw;
+}
 }
 /* -------------------------------------------------850--*/
 @media screen and (max-width: 875px) {
@@ -419,6 +426,9 @@ h3 {
         margin-left: 5vw;
         margin-right: 5vw;
     }
+    .contenedor1 .header h4 { /* ?? */
+        font-size: 1.2rem;
+    }
 }
 /*-------------------------------------------------600---*/
 @media screen and (max-width: 600px) {
@@ -433,6 +443,7 @@ h3 {
     .floating-btn {
         left: 65%;
     }
+
 }
 /*-------------------------------------------------500---*/
 @media screen and (max-width: 500px) {

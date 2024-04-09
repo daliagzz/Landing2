@@ -44,7 +44,7 @@ function cerrarModal() {
 
     alert("¡Gracias por solicitar una copia GRATUITA de mi Curso Digital de FINANZAS!"+
     "\n"+"\nSeguro lo disfrutarás!! En unos minutos te llegará al correo que acabas de registrar. De no ser así, házmelo saber."+
-    "\n"+"\ncaroline.sada@tururu.com");
+    "\n"+"\nSaludos! Caroline Sada"+"\ncaroline.sada@tururu.com");
     alertaMostrada=true;
     }
 
@@ -72,57 +72,3 @@ function validarFormulario() {
         return false;
     } return true;
 }
-
-
-
-
-
-
-
-
-
-
-
-    /*if (nombre.trim() === "" || email.trim() === "" ){
-        alert("Por favor, llena los campos solicitados");
-        console.log("Datos vacios");
-        return false;
-    } else if (!expNombre.test(nombre)){
-        alert("Utiliza un nombre válido");
-        console.log("Nombre válido");
-        return false;
-
-        
-    } *//*else if (!expReg.test(email)){
-        console.log("correo no valido1");
-        alert("El correo no es válido");
-        console.log("correo no valido2");
-        return false;
-        
-    }*//* else if(!acepto){
-        alert("Acepta los términos y condiciones");
-        console.log("Ok Acepto");
-        return false;
-    } return true;
-}*/
-
-
-    // else {
-    //     alert("¡Gracias por solicitar una copia GRATUITA de mi Curso Digital de FINANZAS!"+
-    //     "\n"+"\nSeguro lo disfrutarás!! En unos minutos te llegará al correo que acabas de registrar. De no ser así, házmelo saber."+
-    //     "\n"+"\ncaroline.sada@tururu.com");
-    //     cerrarModal();
-    //     return true;
-    
-    
-
-    // if (nombre.trim() == "" || email.trim() == "" || !acepto) {
-    //     alert("Por favor, complete todos los campos y acepte los términos y condiciones.");
-    //     return false;
-    // } else if (!expReg.test(email)) {
-    //     alert("El email ingresado no es válido");
-    //     return false;
-    // }
-  
-    // return true;
-

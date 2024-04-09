@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box; /*El valor border-box en el box-sizing hace que el padding y el border pasen a formar parte del c�lculo del ancho de la caja y no lo suman posteriormente.*/
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto ;
+}
+.contenedor .header {
+    height: 180px;
+    background: #12203E;
+    color: #fff;
+    grid-area: header;
+    text-align: center;
+
+    /* grid-column-start: 1;
+    grid-column-end: -1; */
+    
+}
+.contenedor .header .logo {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 65px;
+    text-align: left;
+    margin-top: 40px;
+    text-align: center;
+
+}
+.contenedor .header .bajo_logo {
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    
+}
+.contenedor .image img {
+    width: 60%;
+    min-width: 350px;
+    border-radius: 50%;
+    box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.8), 7px 7px 20px rgba(0, 0, 0, 0.8);z-index: 998;
+}
+@media screen and (max-width: 1000px) {
+    body {
+        .contenedor .header {
+            min-height: 200px;
+        }
+    }
+}

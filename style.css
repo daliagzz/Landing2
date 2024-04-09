@@ -30,6 +30,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: auto;
 }
 .espaciamiento {
     display: flex;
@@ -48,13 +49,14 @@ body {
 .profiles {
     margin-top: 5vw;
     padding: 25px;
+    padding-right: 40px;
 }
 .profiles a {
     padding-left: 10px;
     color: #12203E;
 }
 .profiles .fa-whatsapp {
-    margin-right: 5vw;
+    margin-right: 20px;
 }
 .profiles a:hover,
 .profiles a:focus {
@@ -225,7 +227,7 @@ background: transparent;
 }
     
 .modal-contenido {
-    background-color: rgb(23, 86, 163);/*rgb(37, 14, 80);*/
+    background-color: #12203E;/*rgb(23, 86, 163);/*rgb(37, 14, 80);*/
     margin: 15% auto;
     padding: 20px;
     border: 3px solid #888;
@@ -301,7 +303,7 @@ button:hover {
 .floating-btn {
     position: fixed;
     bottom: 100px;
-    left: 30%;
+    left: 35%;
     /* bottom: 100px;
     left: 50%; */
     transform: translate(-50%, -50%);
@@ -359,6 +361,7 @@ h3 {
 @media screen and (max-width: 1000px) {
     .floating-btn {
         left: 50%;
+        
     }
 }
 /* -------------------------------------------------850--*/
@@ -426,7 +429,10 @@ h3 {
     }
     button {
         width: 80%;
-    } 
+    }
+    .floating-btn {
+        left: 65%;
+    }
 }
 /*-------------------------------------------------500---*/
 @media screen and (max-width: 500px) {
@@ -437,7 +443,13 @@ h3 {
     }
     button {
         width: 75%;
-    } 
+    }
+    .espaciamientoProfiles {
+        justify-content: space-evenly;
+    }
+}
+.espaciamiento h2{
+    margin-left: 35px;
 }
 /*--------------------------------------------------400---*/
 @media screen and (max-width: 400px) {
@@ -451,7 +463,7 @@ h3 {
     }
     button {
         width: 70%;
-    } 
+    }
 }
 
 
